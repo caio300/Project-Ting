@@ -11,3 +11,6 @@ def txt_importer(path_file):
             return file_data
     except FileNotFoundError:
         print(f"Arquivo {path_file} não encontrado", file=sys.stderr)
+
+
+# test
